@@ -3,5 +3,5 @@ project(AdventOfCode)
 
 add_subdirectory(common)
 
-# Include each day
-add_subdirectory(day01)
+#add_subdirectory(day01)
+add_subdirectory(day02)

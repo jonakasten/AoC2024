@@ -1,5 +1,6 @@
-#include <iostream>
 #include "utils.h"
+
+#include <iostream>
 #include <sstream>
 #include <algorithm>
 #include <numeric>
