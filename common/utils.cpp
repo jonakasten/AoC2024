@@ -15,3 +15,15 @@ std::vector<std::string> readLinesFromFile(const std::string& filename) {
     }
     return lines;
 }
+
+int countOccs(std::string input, std::string subString)
+{
+    int occs = 0;
+    std::string::size_type pos = 0;
+    while ((pos = input.find(subString, pos)) != std::string::npos)
+    {
+        occs++;
+        pos += input.length();
+    }
+    return occs;
+}
